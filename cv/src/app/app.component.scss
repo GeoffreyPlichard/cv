@@ -9,7 +9,17 @@ section {
       width: 100%;
     }
 
+    
     article {
+      &:first-child {
+        background-image: url('/assets/me.jpeg');
+        height: 350px;
+        background-size: cover;
+      }
+      &:nth-child(2) {
+        background-color: var(--color-bg-left3);
+      }
+
       .inner {
         padding: 20px;
       }
