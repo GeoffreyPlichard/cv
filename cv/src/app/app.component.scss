@@ -16,8 +16,13 @@ section {
         height: 350px;
         background-size: cover;
       }
+
       &:nth-child(2) {
         background-color: var(--color-bg-left3);
+
+        li {
+          margin-bottom: 20px;
+        }
       }
 
       .inner {
@@ -37,7 +42,6 @@ section {
           color: var(--color-text-left);
           display: flex;
           flex-direction: column;
-          margin-bottom: 20px;
 
           span {
             display: inline-block;
