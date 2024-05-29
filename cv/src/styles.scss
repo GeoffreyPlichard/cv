@@ -21,11 +21,6 @@ body, html {
   font-style: normal;
 }
 
-h1 {
-  margin: 20px;
-  color: var(--color-title);
-}
-
 @media print {
   body {
     -webkit-print-color-adjust: exact;
