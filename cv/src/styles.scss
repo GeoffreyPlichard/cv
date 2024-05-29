@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body, html {
+  --color-bg-right: #FAFAFA;
+  --color-bg-left: #264060;
+
+  --color-title: #2F486F;
+  --color-text-right: #5F5E62;
+  --color-text-left: #fff;
+  --color-title-left: #8B9298;
+  --color-title-right: #4C4B62;
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-right);
+  color: var(--color-text-right);
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  margin: 20px;
+  color: var(--color-title);
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+}
